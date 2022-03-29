@@ -1,4 +1,5 @@
 import React from "react";
+import locationicon from "../images/location-icon.png";
 
 
 export default function Card(props) {
@@ -10,7 +11,7 @@ export default function Card(props) {
 
           <div className="section-content">
             <img
-              src="../images/location-icon.png"
+              src={locationicon}
               className="section-nav-icon"
             />
             <span className="section-country">{props.item.location}</span>
