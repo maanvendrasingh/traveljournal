@@ -29,11 +29,15 @@ hr {
 
 .section-header {
   display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  justify-content: center;
   padding: 20px 40px;
 }
 
 .section-content {
   margin: 0 20px;
+
 }
 
 .section-icon {
